@@ -30,7 +30,18 @@
     </dependencies>
   </dependencyManagement>
 
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <id>crc-respository</id>
+      <name>OpenShift Repo</name>
+      <url>http://nexus-sonatype-nexus-route-default.apps-crc.testing/repository/crc-repository/</url>
+    </repository>
+  </repositories>
   <dependencies>
+
     <dependency>
       <groupId>com.iberia.pricing</groupId>
       <artifactId>availability-discount-rules-xom</artifactId>
