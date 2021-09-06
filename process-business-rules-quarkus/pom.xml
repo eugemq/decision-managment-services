@@ -29,7 +29,9 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-  <dependency>
+
+  <dependencies>
+    <dependency>
       <groupId>com.iberia.pricing</groupId>
       <artifactId>availability-discount-rules-xom</artifactId>
       <version>0.0.1-SNAPSHOT</version>
