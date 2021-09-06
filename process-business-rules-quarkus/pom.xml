@@ -37,7 +37,7 @@
       </snapshots>
       <id>crc-respository</id>
       <name>OpenShift Repo</name>
-      <url>http://nexus-sonatype-nexus-route-default.apps-crc.testing</url>
+      <url>http://10.217.4.231:8081</url>
     </repository>
   </repositories>
   <dependencies>
